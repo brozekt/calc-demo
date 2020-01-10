@@ -1,4 +1,4 @@
-package com.epam.calcdemo;
+package com.math.calculator;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
