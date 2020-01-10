@@ -8,7 +8,7 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.calccompany</groupId>
+	<groupId>com.math</groupId>
 	<artifactId>calc-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>calc-demo</name>
@@ -46,4 +46,11 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/brozekt/calc-demo</url>
+		</repository>
+	</distributionManagement>
 </project>
