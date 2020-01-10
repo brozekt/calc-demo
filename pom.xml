@@ -9,8 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.math</groupId>
+	<packaging>jar</packaging>
 	<artifactId>calc-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>calc-demo</name>
 	<description>CI/CD training demo app</description>
 
