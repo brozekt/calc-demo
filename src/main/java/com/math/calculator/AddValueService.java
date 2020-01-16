@@ -5,10 +5,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AddValueService {
-    @Value("${additional.incrementor:0}")
+    @Value("${additional.incrementor}")
     private int additionalIncrementor;
 
     public int add(int x, int y) {
-        return x + y + additionalIncrementor;
+        return x + y + 1;
     }
 }
