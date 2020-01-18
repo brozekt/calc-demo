@@ -1,6 +1,4 @@
 FROM openjdk:15-slim-buster
-#first download jar from repo using mvn
-#COPY . /usr/src/myapp
-#WORKDIR /usr/src/myapp
-#RUN javac Main.java
-CMD ["java"]
+COPY calc-demo.jar /app/
+WORKDIR /app
+CMD ["java" "-jar" "cal-demo.jar" "2" "2"]
