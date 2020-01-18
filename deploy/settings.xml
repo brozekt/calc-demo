@@ -44,7 +44,7 @@
         <server>
             <id>github</id>
             <username>x-access-token</username>
-            <password>52ca0ad9fc00a5c7baf7c062f471d57050e9cba8</password>
+            <password>secret</password>
         </server>
     </servers>
 </settings>
