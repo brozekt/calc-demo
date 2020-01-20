@@ -6,5 +6,6 @@ import org.springframework.stereotype.Service;
 public class MultiplyValueService {
     public int multiply(int x, int y) {
         return x*y;
+
     }
 }
