@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MultiplyValueServiceTest {
+
     @Test
     void shouldReturn20() {
         MultiplyValueService calc = new MultiplyValueService(); // MyClass is tested
