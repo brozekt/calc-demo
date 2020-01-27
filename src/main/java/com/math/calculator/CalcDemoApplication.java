@@ -12,6 +12,31 @@ import java.util.List;
 @SpringBootApplication
 public class CalcDemoApplication implements ApplicationRunner {
     String unusedVar = "please delete me";
+    String anotherUnusedVar = "please delete me";
+    String yetAnotherUnusedVar = "please delete me";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     @Autowired
     private AddValueService addValueService;
@@ -32,5 +57,6 @@ public class CalcDemoApplication implements ApplicationRunner {
             System.out.println(Instant.now());
             Thread.sleep(2000);
         }
+
     }
 }
